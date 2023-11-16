@@ -68,3 +68,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "vitrail", github: "kuartz-org/vitrail", branch: "main"
+gem "lookbook"
+gem "view_component"

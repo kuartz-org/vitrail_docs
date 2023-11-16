@@ -23,5 +23,13 @@ module VitrailDocs
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+    config.view_component.preview_paths << Vitrail::Engine.root.join("test/components/previews")
+    config.lookbook.preview_layout = "vitrail/component_preview"
+    config.lookbook.project_name = "Vitrail"
+    config.lookbook.project_logo = false
+    config.lookbook.ui_favicon = false
+    config.lookbook.preview_collection_label = "Components"
+    config.lookbook.ui_theme = "zinc"
+    config.lookbook.preview_inspector.drawer_panels = [:source]
   end
 end
