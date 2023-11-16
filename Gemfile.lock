@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/kuartz-org/vitrail.git
-  revision: b91f481f3534e6eb022acf10671cbc89adbceef7
+  revision: e4607e57ee89fd51fbca7a6ae09b0203f827d34e
   branch: main
   specs:
-    vitrail (0.2.0)
+    vitrail (0.2.1)
       rails (~> 7)
       tailwindcss-rails (~> 2)
       view_component (~> 3)
