@@ -7,7 +7,8 @@ module.exports = {
     './app/helpers/**/*.rb',
     './app/javascript/**/*.js',
     './app/views/**/*.{erb,haml,html,slim}',
-    output.trim() + '/app/components/**/*.{erb,haml,html,rb}'
+    output.trim() + '/app/components/**/*.{erb,html,slim,rb}',
+    output.trim() + '/test/components/previews/**/*.{erb,html,slim,rb}'
   ],
   theme: {
     extend: {

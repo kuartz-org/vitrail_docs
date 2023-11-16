@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/kuartz-org/vitrail.git
-  revision: e4607e57ee89fd51fbca7a6ae09b0203f827d34e
+  revision: f2ad2323478ea665f6ddfc8166cd5b2e3036c982
   branch: main
   specs:
     vitrail (0.2.1)

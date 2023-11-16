@@ -34,7 +34,8 @@ module VitrailDocs
     config.lookbook.project_logo = false
     config.lookbook.ui_favicon = false
     config.lookbook.preview_collection_label = "Components"
+    config.lookbook.page_collection_label = "Docs"
     config.lookbook.ui_theme = "zinc"
-    config.lookbook.preview_inspector.drawer_panels = [:source]
+    config.lookbook.preview_inspector.drawer_panels = [:notes, :source]
   end
 end
