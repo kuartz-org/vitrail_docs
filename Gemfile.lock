@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/kuartz-org/vitrail.git
-  revision: f2ad2323478ea665f6ddfc8166cd5b2e3036c982
+  revision: 0cffbc803217059ea8e0e67f511a6cfe7bc146b4
   branch: main
   specs:
-    vitrail (0.2.1)
+    vitrail (0.4.0)
       rails (~> 7)
       tailwindcss-rails (~> 2)
       view_component (~> 3)
@@ -108,9 +108,6 @@ GEM
     css_parser (1.16.0)
       addressable
     date (3.3.4)
-    debug (1.8.0)
-      irb (>= 1.5.0)
-      reline (>= 0.3.1)
     drb (2.2.0)
       ruby2_keywords
     erubi (1.12.0)
@@ -278,7 +275,6 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   capybara
-  debug
   importmap-rails
   jbuilder
   lookbook
@@ -291,7 +287,6 @@ DEPENDENCIES
   stimulus-rails
   tailwindcss-rails
   turbo-rails
-  tzinfo-data
   view_component
   vitrail!
   web-console
